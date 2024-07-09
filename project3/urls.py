@@ -24,6 +24,7 @@ DRO=DefaultRouter()
 
 DRO.register('ProductCrudView',ProductCrudView,basename='ProductCrudView')
 
+DRO.register('ProductCrudBYMV',ProductCrudBYMV,basename='ProductCrudBYMV')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
